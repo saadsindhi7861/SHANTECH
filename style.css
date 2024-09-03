@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0%;
+    height: 100vh;
+}
+
+#myheader {
+    background-color: white;
+}
+
+header > a:nth-child(1), a:nth-child(2), a:nth-child(3) {
+    margin: 1%;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header > a:nth-child(1) {
+    margin-left: 1.5%;
+}
+
+header > a:last-child {
+    color: rgb(236, 103, 26);
+    font-weight: bolder;
+    font-size: 150%;
+    position: relative;
+    left: 31.5%;
+    text-decoration: none;
+}
+
+.navbar {
+    margin: 0%;
+}
+
+.nav-link {
+    color: black!important;
+}
+
+#plus-size, #e-shopping {
+    color: rgb(236, 103, 26)!important;
+}
+
+.badge {
+    background-color: rgb(236, 103, 26)!important;
+    color: white;
+    position: absolute;
+    top: 0%;
+    right: 48%;
+}
+
+.fa-search {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    width: 30px;
+    height: 36px;
+}
+
+#myheader {
+    position: sticky;
+    top: 0%;
+    z-index: 99;
+}
+
+#navbar {
+    position: sticky;
+    top: 4.7%;
+    z-index: 98;
+}
+
+.price {
+    color: red;
+}
+
+.real-price {
+    text-decoration: line-through;
+}
+
+.heart {
+    float: right;
+}
+
+#inputGroupSelect01  {
+    color: blue;
+}
+
+.fa-heart {
+    color: red;
+}
+
+input {
+    margin: 3px;
+    cursor: pointer;
+}
+
+fieldset > label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+}
+#checkboxes {
+    border-right: 1px solid rgb(172, 172, 172);
+    line-height: 2;
+}
+
+.checkboxs {
+    color: #66635e;
+}
+
+
+img:hover {
+    width: 102%;
+    height: 105%;
+    cursor: pointer;
+    transition: 0.3s;
+}

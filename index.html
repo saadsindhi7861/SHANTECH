@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by shubham306</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping page</title>
+    <!-- bootstrap css -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!-- font-awesome icon -->
+     <script src="https://kit.fontawesome.com/09cdc3e90d.js"></script>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- header -->
+    <header id="myheader" class="header">
+        <a href=""><span>Women</span></a>
+        <a href=""><span>Men</span></a>
+        <a href=""><span>Kids</span></a>
+        <a href=""><span><strong>My Shop</strong></span></a>
+    </header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">What's new</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Exclusive</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trends</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clothing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dresses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="plus-size" href="#">Plus Size</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoe's & Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="e-shopping" href="#">E-shopping cards<span class="badge">Upto ₹1400 off</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Explore</a>
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <i class="fas fa-search" id="search"></i>
+            <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzBoFiKXsSvHZE0tFBcAndYOsQ5jSlM9Fx29bsMO4y66D5X0Ow" id="search" alt=""> -->
+          </form>
+        </div>
+      </nav>
+
+      <main>
+          <div class="container-fluid">
+            <!-- Side Navigation -->
+              <div class="row">
+                  <div class="col-2" id="checkboxes">
+                        <form>      
+                            <fieldset>      
+                                <label>Category</label><br>      
+                                <input type="checkbox" name="topwear" value="topwear"><span class="checkboxs">Topwear</span><br>      
+                                <input type="checkbox" name="bottomwear" value="bottomwear"><span class="checkboxs">Bottomwear</span><br>      
+                                <input type="checkbox" name="innerwear" value="innerwear"><span class="checkboxs">Innerwear</span><br>      
+                                <input type="checkbox" name="footwear" value="footwear"><span class="checkboxs">Footwear</span><br>
+                                <input type="checkbox" name="accessories" value="accessories"><span class="checkboxs">Accessories</span><br>    
+                            </fieldset>      
+                        </form>
+                        <br>
+                        <form>      
+                            <fieldset>      
+                                <label>Style</label><br>      
+                                <input type="checkbox" name="casual" value="Casual"><span class="checkboxs">Casual</span><br>      
+                                <input type="checkbox" name="boho" value="boho"><span class="checkboxs">Boho</span><br>      
+                                <input type="checkbox" name="elegant" value="elegant"><span class="checkboxs">Elegant</span><br>      
+                                <input type="checkbox" name="glamorous" value="glamorous"><span class="checkboxs">Glamorous</span><br>
+                                <input type="checkbox" name="classy" value="classy"><span class="checkboxs">Classy</span><br>  
+                                <input type="checkbox" name="sexy" value="sexy"><span class="checkboxs">Sexy</span><br>  
+                            </fieldset>      
+                        </form>
+                        <br>
+                        <form>      
+                            <fieldset>      
+                                <label>Color</label><br>      
+                                <input type="checkbox" name="black" value="black"><span class="checkboxs">Black</span><br>      
+                                <input type="checkbox" name="White" value="white"><span class="checkboxs">White</span><br>      
+                                <input type="checkbox" name="pink" value="pink"><span class="checkboxs">Pink</span><br>      
+                                <input type="checkbox" name="red" value="red"><span class="checkboxs">Red</span><br>
+                                <input type="checkbox" name="blue" value="blue"><span class="checkboxs">Blue</span><br>
+                                <input type="checkbox" name="orange" value="grange"><span class="checkboxs">Orange</span><br>
+                                <input type="checkbox" name="green" value="green"><span class="checkboxs">Green</span><br>    
+                            </fieldset>      
+                        </form>
+                   </div>
+                   <!-- Product section  -->
+                   <div class="col-10">
+                     <!-- select dropdown -->
+                        <div class="row">
+                          <div class="col-9"></div>
+                          <div class="col-3">
+                              <div class="input-group mb-3" id="select-option">
+                                  <div class="input-group-prepend">
+                                    <label class="input-group-text" for="inputGroupSelect01">Sort By</label>
+                                  </div>
+                                  <select class="custom-select" id="inputGroupSelect01">
+                                    <option >Choose...</option>
+                                    <option value="1" selected>Recommended</option>
+                                    <option value="2">New</option>
+                                    <option value="3">Offers</option>
+                                  </select>
+                                </div>
+                          </div>
+                        </div>
+                        <!-- Product list -->
+                        <div class="row">
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoiWBXBs6JVJ3SfZDmduENJjC3OFZKBmN7T0DLNoPKujgGlN1h" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+                
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img style="height: 286px;" src="http://product.pencilone.com/wp-content/uploads/2017/08/Front.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe4PiW7coH2zxwexZMxjhemVDhNGrVthCHTGSbulfJIGyYfjtB" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfX9bcNExKhGmoiOX86kftWX0pIRrc_Y6TEipyqwuPVChqGi_l9A" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPTHhM_KiM52B8pFiw9bq1hHIYT7Qk3EwuMZIZ0VUKixaJfT4S" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRupBZ7APFbWVtKHYbLuJDEhD8ULEwmkd-8wX2TU3MNJLw_cKHA" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAv1dOvrsBG6DLFHKW1h6kgGEIBfD9f7YnjghnoBBOb9A0nZWMKw" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+
+                                <div class="col-3 mb-4">
+                                        <div class="card shadow-lg" style="width: 18rem;">
+                                                <img src="https://www.coghlans.com/images/products/products-camp-kitchen-thumb.jpg" class="card-img-top" alt="...">
+                                                <div class="card-body">
+                                                  <p class="card-text">Some quick example text to build..</p>
+                                                  <span class="price">₹780</span>
+                                                  <span class="real-price">₹1100</span>
+                                                  <span class="heart"><i class="far fa-heart"></i></span>
+                                                </div>
+                                              </div>
+                                </div>
+                         </div>
+                   </div> 
+                </div>
+            </div>
+      </main>
+
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
